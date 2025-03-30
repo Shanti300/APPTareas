@@ -16,13 +16,13 @@ Los cambios de color se almacenan de forma persistente en **SharedPreferences** 
 La aplicación permite cambiar entre **cuatro esquemas de colores predefinidos**:  
 
 #### 🔆 Tema claro (Light Theme)  
-<img src="https://github.com/user-attachments/assets/4363e0ad-b363-4939-997b-605771b0a785" width="300">
+<img src="https://github.com/user-attachments/assets/4363e0ad-b363-4939-997b-605771b0a785" width="130">
 
 #### 🔵 Tema azul (Blue Theme)  
-<img src="https://github.com/user-attachments/assets/ebe6c497-8d61-437f-9ad9-5164148e0787" width="300">
+<img src="https://github.com/user-attachments/assets/ebe6c497-8d61-437f-9ad9-5164148e0787" width="130">
 
 #### 🔥 Tema cálido (Warm Theme)  
-<img src="https://github.com/user-attachments/assets/3102b38c-c536-4e2b-b264-ca9f2ecf1939" width="300">
+<img src="https://github.com/user-attachments/assets/3102b38c-c536-4e2b-b264-ca9f2ecf1939" width="130">
 
 ---
 
@@ -53,6 +53,7 @@ Lenguaje: Kotlin
 
 -SharedPreferences
 
+---
 
 ##Capturas
 
@@ -66,6 +67,7 @@ Lenguaje: Kotlin
 <img src="https://github.com/user-attachments/assets/93e938c8-56a6-4abb-a6d9-873918ca88c1" width="200">
 
 ---Settings---
+
 <img src="https://github.com/user-attachments/assets/f7ec277e-24a7-4ea1-a851-65b1c8563269" width="200">
 
 
