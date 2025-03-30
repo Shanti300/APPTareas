@@ -26,17 +26,57 @@ La aplicación permite cambiar entre **cuatro esquemas de colores predefinidos**
 
 ---
 
-### Persistencia de configuración  
-- Utiliza **SharedPreferences** para almacenar la preferencia de color seleccionada y restaurarla en futuras ejecuciones.  
+#### ✅ 1. Estructura de Pantallas y Navegación
+##### Pantalla de Inicio:
 
-### Arquitectura basada en ViewModel y StateFlow  
-- Los cambios en los colores se gestionan mediante un **ViewModel** y **StateFlow**, lo que permite una reactividad eficiente en la interfaz.  
+-Existe MainActivity con activity_main.xml, que contiene un NavHostFragment para manejar la navegación.
 
-### Interfaz combinada con Jetpack Compose y XML  
-- Mientras que algunas pantallas usan **Jetpack Compose**, otras conservan la estructura **XML tradicional con ViewBinding**.  
+-Hay un botón en la pantalla de inicio (Go Details) que permite navegar a la pantalla de detalles. ✅
 
-### Fragmentos y navegación  
-- La aplicación utiliza **NavHostFragment** para gestionar la navegación entre diferentes pantallas.  
+##### Pantalla de Detalles:
+
+-DetailsScreen muestra información basada en un ViewModel (DetailsViewModel) y LiveData (detailsText). ✅
+
+##### Pantalla de Configuración:
+
+-SettingsScreen permite cambiar la apariencia de la UI globalmente (tema de colores). ✅
+
+#####  Navegación con Navigation Component:
+
+-La navegación entre las pantallas está gestionada con NavHostFragment. ✅
+
+#### ✅ 2. Diseño de la UI
+##### XML Layout en la pantalla de inicio:
+
+-activity_main.xml está definido en XML. ✅
+
+##### Jetpack Compose en la pantalla de detalles:
+
+-SettingsScreenContent usa Compose para la UI. ✅
+
+##### Diseño responsivo y accesible:
+
+-Usa Column, Modifier.fillMaxSize(), y padding() en Compose.
+
+-La UI parece adaptarse correctamente a cambios de color y tamaño de pantalla. ✅
+
+#### ✅ 3. Gestión de Estado
+##### ViewModel para la lógica:
+
+-DetailsViewModel y SettingsViewModel manejan los datos de la app. ✅
+
+##### LiveData para actualizaciones en tiempo real:
+
+-detailsText.observe(viewLifecycleOwner, Observer { text -> ... }) en DetailsScreen. ✅
+
+#### ✅ 4. Interactividad y UX
+##### Cambio de color en la Pantalla de Configuración:
+
+-SettingsScreenContent permite cambiar el color de fondo. ✅
+
+##### Uso de SharedPreferences para guardar el color:
+
+-AppPreferences guarda el índice del tema y ThemeManager lo recupera. ✅
 
 ### Tecnologías Utilizadas
 Lenguaje: Kotlin
