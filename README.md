@@ -63,9 +63,9 @@ Lenguaje: Kotlin
 ---Details---
 
 <img src="https://github.com/user-attachments/assets/19394217-5e34-4886-b83c-512d48a2f486" width="200">
-<img src="https://github.com/user-attachments/assets/93e938c8-56a6-4abb-a6d9-873918ca88c1width="200">
+<img src="https://github.com/user-attachments/assets/93e938c8-56a6-4abb-a6d9-873918ca88c1" width="200">
 
 ---Settings---
-<img src="https://github.com/user-attachments/assets/f7ec277e-24a7-4ea1-a851-65b1c8563269width="200">
+<img src="https://github.com/user-attachments/assets/f7ec277e-24a7-4ea1-a851-65b1c8563269" width="200">
 
 
