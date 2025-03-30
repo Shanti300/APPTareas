@@ -12,7 +12,7 @@ Los cambios de color se almacenan de forma persistente en **SharedPreferences** 
 
 ## Características principales  
 
-### 🎨 Sistema de cambio de temas dinámico  
+### Sistema de cambio de temas dinámico  
 La aplicación permite cambiar entre **cuatro esquemas de colores predefinidos**:  
 
 #### 🔆 Tema claro (Light Theme)  
@@ -26,18 +26,46 @@ La aplicación permite cambiar entre **cuatro esquemas de colores predefinidos**
 
 ---
 
-### 🛠 Persistencia de configuración  
-✔ Utiliza **SharedPreferences** para almacenar la preferencia de color seleccionada y restaurarla en futuras ejecuciones.  
+### Persistencia de configuración  
+- Utiliza **SharedPreferences** para almacenar la preferencia de color seleccionada y restaurarla en futuras ejecuciones.  
 
-### 🏗 Arquitectura basada en ViewModel y StateFlow  
-✔ Los cambios en los colores se gestionan mediante un **ViewModel** y **StateFlow**, lo que permite una reactividad eficiente en la interfaz.  
+### Arquitectura basada en ViewModel y StateFlow  
+- Los cambios en los colores se gestionan mediante un **ViewModel** y **StateFlow**, lo que permite una reactividad eficiente en la interfaz.  
 
-### 📱 Interfaz combinada con Jetpack Compose y XML  
-✔ Mientras que algunas pantallas usan **Jetpack Compose**, otras conservan la estructura **XML tradicional con ViewBinding**.  
+### Interfaz combinada con Jetpack Compose y XML  
+- Mientras que algunas pantallas usan **Jetpack Compose**, otras conservan la estructura **XML tradicional con ViewBinding**.  
 
-### 🔀 Fragmentos y navegación  
-✔ La aplicación utiliza **NavHostFragment** para gestionar la navegación entre diferentes pantallas.  
+### Fragmentos y navegación  
+- La aplicación utiliza **NavHostFragment** para gestionar la navegación entre diferentes pantallas.  
 
----
+###Tecnologías Utilizadas
+Lenguaje: Kotlin
 
-💡 **¡Personaliza tu experiencia con diferentes temas y mejora la usabilidad de la aplicación!** 🚀
+-Frameworks y librerías:
+
+-Jetpack Compose
+
+-ViewModel y LiveData
+
+-StateFlow y Flow
+
+-Navigation Component
+
+-SharedPreferences
+
+
+##Capturas
+
+---Home---
+
+<img src="https://github.com/user-attachments/assets/3102b38c-c536-4e2b-b264-ca9f2ecf1939" width="200">
+
+---Details---
+
+<img src="https://github.com/user-attachments/assets/19394217-5e34-4886-b83c-512d48a2f486" width="200">
+<img src="https://github.com/user-attachments/assets/93e938c8-56a6-4abb-a6d9-873918ca88c1width="200">
+
+---Settings---
+<img src="https://github.com/user-attachments/assets/f7ec277e-24a7-4ea1-a851-65b1c8563269width="200">
+
+
