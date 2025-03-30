@@ -72,5 +72,36 @@ Frameworks y librerías:
 <img src="https://github.com/user-attachments/assets/f7ec277e-24a7-4ea1-a851-65b1c8563269" width="200">
 <img src="https://github.com/user-attachments/assets/ab771cd2-2a94-4caf-a52c-b65b48737835" width="200">
 
+## Ejecución
+### Opción 1: Instalar el APK directamente
 
+Descarga el APK desde el siguiente enlace:
+📥 [Descargar APK](https://github.com/Shanti300/APPTareas/raw/main/app-debug.apk)
+
+En tu dispositivo Android, activa la opción de Orígenes desconocidos en:
+
+-Ajustes > Seguridad > Fuentes desconocidas (puede variar según el dispositivo).
+
+Abre el archivo .apk y sigue las instrucciones para instalarlo.
+
+### Opción 2: Ejecutar en Android Studio
+
+Clonar el repositorio:
+
+-git clone https://github.com/Shanti300/APPTareas.git
+cd APPTareas
+
+Abrir en Android Studio:
+
+-Inicia Android Studio y abre la carpeta del proyecto.
+
+-Configurar un dispositivo virtual o conectar un teléfono real:
+
+Si usas un emulador, configúralo en AVD Manager.
+
+Si usas un dispositivo real, activa la Depuración USB en las opciones de desarrollador.
+
+Ejecutar la aplicación:
+
+-Presiona el botón ▶️ en Android Studio o usa el comando:
 
