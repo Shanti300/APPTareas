@@ -3,7 +3,7 @@
 
 ## Descripción de la Aplicación  
 Esta aplicación móvil para Android permite a los usuarios personalizar la apariencia de la interfaz mediante la selección de diferentes temas de colores.  
-Implementa una arquitectura modular basada en **Fragments, Jetpack Compose y StateFlow**, lo que permite actualizar dinámicamente los colores de la interfaz sin necesidad de reiniciar la aplicación.  
+Implementa una arquitectura modular basada en **XML layout, Jetpack Compose y StateFlow**, lo que permite actualizar dinámicamente los colores de la interfaz sin necesidad de reiniciar la aplicación.  
 
 La aplicación cuenta con una pantalla principal y varias pantallas adicionales donde los usuarios pueden interactuar con los datos y cambiar la configuración del tema.  
 Los cambios de color se almacenan de forma persistente en **SharedPreferences** para garantizar que la configuración se mantenga entre sesiones.  
@@ -41,7 +41,7 @@ La aplicación permite cambiar entre **cuatro esquemas de colores predefinidos**
 ###Tecnologías Utilizadas
 Lenguaje: Kotlin
 
--Frameworks y librerías:
+Frameworks y librerías:
 
 -Jetpack Compose
 
