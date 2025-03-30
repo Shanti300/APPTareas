@@ -38,7 +38,7 @@ La aplicación permite cambiar entre **cuatro esquemas de colores predefinidos**
 ### Fragmentos y navegación  
 - La aplicación utiliza **NavHostFragment** para gestionar la navegación entre diferentes pantallas.  
 
-###Tecnologías Utilizadas
+### Tecnologías Utilizadas
 Lenguaje: Kotlin
 
 Frameworks y librerías:
@@ -71,6 +71,8 @@ Frameworks y librerías:
 
 <img src="https://github.com/user-attachments/assets/f7ec277e-24a7-4ea1-a851-65b1c8563269" width="200">
 <img src="https://github.com/user-attachments/assets/ab771cd2-2a94-4caf-a52c-b65b48737835" width="200">
+
+---
 
 ## Ejecución
 ### Opción 1: Instalar el APK directamente
