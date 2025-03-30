@@ -90,8 +90,7 @@ Abre el archivo .apk y sigue las instrucciones para instalarlo.
 
 Clonar el repositorio:
 
--git clone https://github.com/Shanti300/APPTareas.git
-cd APPTareas
+#### git clone https://github.com/Shanti300/APPTareas.git cd APPTareas
 
 Abrir en Android Studio:
 
@@ -100,10 +99,10 @@ Abrir en Android Studio:
 -Configurar un dispositivo virtual o conectar un teléfono real:
 
 Si usas un emulador, configúralo en AVD Manager.
-
 Si usas un dispositivo real, activa la Depuración USB en las opciones de desarrollador.
 
-Ejecutar la aplicación:
+-Ejecutar la aplicación:
 
--Presiona el botón ▶️ en Android Studio o usa el comando:
+Presiona el botón ▶️ en Android Studio o usa el comando: 
+#### ./gradlew installDebug
 
