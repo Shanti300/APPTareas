@@ -1,7 +1,0 @@
-ACTUALIZACIONES DE LA APP
-
-
-
-
-Ahora contiene un login conectado a firestore.
-
